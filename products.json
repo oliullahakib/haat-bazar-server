@@ -1,74 +1,80 @@
 [
   {
     "title": "Fresh Red Tomatoes",
-    "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCS_aoxbwlr77gQhpXnOI2agyU8lqtgU6bFNnel_zV3zMGS7Cz48JjnPKpHvtzSt0r7yM&usqp=CAU",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCS_aoxbwlr77gQhpXnOI2agyU8lqtgU6bFNnel_zV3zMGS7Cz48JjnPKpHvtzSt0r7yM&usqp=CAU",
     "category": "Vegetables",
     "description": "Sweet, organic tomatoes grown by Farmer Azim in Gazipur. Perfect for salads and curries.",
     "min_quantity": 0.5,
     "max_quantity": 50.0,
     "price": 115.00,
-    "rating":5,
+    "rating": 5,
     "location": "Gazipur, Dhaka",
-    "arrival_days": 2 
+    "arrival_days": 2,
+    "email": "farmer.azim@example.com"
   },
   {
     "title": "Local Cauliflower",
-    "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6PV54BvEv5bheyysv_Ha9pbP3x5xoFFVuyA&s",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6PV54BvEv5bheyysv_Ha9pbP3x5xoFFVuyA&s",
     "category": "Vegetables",
     "description": "Large, white heads of winter cauliflower. Harvested early this morning.",
     "min_quantity": 1.0,
     "max_quantity": 150.0,
     "price": 85.00,
-    "rating":4.5,
+    "rating": 4.5,
     "location": "Jashore, Khulna",
-    "arrival_days": 7
+    "arrival_days": 7,
+    "email": "farmer.azim@example.com"
   },
   {
     "title": "Ripe Mangoes (Amrapali)",
-    "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0HfXoYdkmYSuFil_YPAinBrNYm5jS1pww6Q&s",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0HfXoYdkmYSuFil_YPAinBrNYm5jS1pww6Q&s",
     "category": "Fruits",
     "description": "Sweet and tangy Amrapali mangoes, sourced from Rajshahi orchards.",
     "min_quantity": 1.0,
     "max_quantity": 25.0,
     "price": 250.00,
-    "rating":4.9,
+    "rating": 4.9,
     "location": "Rajshahi, Rajshahi",
-    "arrival_days": 10
+    "arrival_days": 10,
+    "email": "orchard.hasan@example.com"
   },
   {
     "title": "Fresh Cow Milk",
-    "image":"https://l450v.alamy.com/450v/3be29fj/bangladeshi-farmer-selling-their-fresh-cow-milk-in-the-market-dhaka-division-dhamrai-bangladesh-3be29fj.jpg",
+    "image": "https://l450v.alamy.com/450v/3be29fj/bangladeshi-farmer-selling-their-fresh-cow-milk-in-the-market-dhaka-division-dhamrai-bangladesh-3be29fj.jpg",
     "category": "Dairy",
     "description": "Unpasteurized, full-fat cow milk from a local Bagerhat farm. Sold per litre.",
     "min_quantity": 1.0,
     "max_quantity": 10.0,
     "price": 90.00,
-    "rating":4.7,
+    "rating": 4.7,
     "location": "Bagerhat, Khulna",
-    "arrival_days": 1
+    "arrival_days": 1,
+    "email": "farmhouse.dairy@example.com"
   },
   {
     "title": "Whole Wheat Flour (Atta)",
-    "image":"https://img.drz.lazcdn.com/static/bd/p/c13531137460056c665977075311ed4d.jpg_720x720q80.jpg",
+    "image": "https://img.drz.lazcdn.com/static/bd/p/c13531137460056c665977075311ed4d.jpg_720x720q80.jpg",
     "category": "Grains",
     "description": "Stone-ground whole wheat flour. Excellent for chapati and bread.",
     "min_quantity": 5.0,
     "max_quantity": 100.0,
     "price": 60.00,
-    "rating":4.5,
+    "rating": 4.5,
     "location": "Pabna, Rajshahi",
-    "arrival_days": 4
+    "arrival_days": 4,
+    "email": "orchard.hasan@example.com"
   },
   {
     "title": "Chicken Breast Fillets",
-    "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrS-dja9AQT8lU7IkoyEVJ6dwMHkAcUaRjPQ&s",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrS-dja9AQT8lU7IkoyEVJ6dwMHkAcUaRjPQ&s",
     "category": "Meats",
     "description": "Farm-raised chicken breast, boneless and skinless. Freshly processed.",
     "min_quantity": 0.5,
     "max_quantity": 30.0,
     "price": 380.00,
-    "rating":3,
+    "rating": 3,
     "location": "Narayanganj, Dhaka",
-    "arrival_days": 5
+    "arrival_days": 5,
+    "email": "farmhouse.dairy@example.com"
   }
 ]
