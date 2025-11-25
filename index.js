@@ -30,9 +30,13 @@ async function run() {
         const productsCollection = db.collection("product")
 
         app.get('/products', async (req, res) => {
-            const { short: shortValu, limit: limitValue } = req.query
+            const { short: shortValu, limit: limitValue,email } = req.query
             const short = {}
             let limit = 0
+            const query = {}
+            if(email){
+                query.email=email
+            }
             if (shortValu === "true") {
                 short.rating = -1
             }
@@ -40,7 +44,7 @@ async function run() {
                 limit = parseInt(limitValue)
             }
             console.log(limit)
-            const result = await productsCollection.find().sort(short).limit(limit).toArray()
+            const result = await productsCollection.find(query).sort(short).limit(limit).toArray()
             res.send(result)
         })
 
